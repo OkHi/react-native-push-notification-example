@@ -1,4 +1,4 @@
-package com.okhipushnotificationexample.newarchitecture.components;
+package io.okhi.pushnotificationtest.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

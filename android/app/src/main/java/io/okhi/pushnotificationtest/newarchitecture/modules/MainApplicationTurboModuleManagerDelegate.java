@@ -1,4 +1,4 @@
-package com.okhipushnotificationexample.newarchitecture.modules;
+package io.okhi.pushnotificationtest.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;

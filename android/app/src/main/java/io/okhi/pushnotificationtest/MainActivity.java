@@ -1,4 +1,4 @@
-package com.okhipushnotificationexample;
+package io.okhi.pushnotificationtest;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

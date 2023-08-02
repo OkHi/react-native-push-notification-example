@@ -1,4 +1,4 @@
-package com.okhipushnotificationexample.newarchitecture;
+package io.okhi.pushnotificationtest.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.okhipushnotificationexample.BuildConfig;
-import com.okhipushnotificationexample.newarchitecture.components.MainComponentsRegistry;
-import com.okhipushnotificationexample.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import io.okhi.pushnotificationtest.BuildConfig;
+import io.okhi.pushnotificationtest.newarchitecture.components.MainComponentsRegistry;
+import io.okhi.pushnotificationtest.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 
