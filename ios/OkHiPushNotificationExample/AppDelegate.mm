@@ -31,6 +31,10 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+  [FIRApp configure];
+  self.okverify = [[OkVerify alloc] init];
+  if ([launchOptions objectForKey:UIApplicationLaunchOptionsLocationKey])
+    [self.okverify startMonitoring];
   RCTAppSetupPrepareApp(application);
 
   RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:launchOptions];
