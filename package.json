@@ -14,7 +14,7 @@
     "@react-native-firebase/messaging": "^18.3.0",
     "react": "18.1.0",
     "react-native": "0.70.10",
-    "react-native-okhi": "^1.1.3-beta.2",
+    "react-native-okhi": "^1.2.2",
     "react-native-webview": "^13.3.1"
   },
   "devDependencies": {
